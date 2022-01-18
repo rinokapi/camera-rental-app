@@ -1,0 +1,36 @@
+{
+  "name": "uas-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --dest build"
+  },
+  "dependencies": {
+    "ag-grid-vue": "^26.2.0",
+    "axios": "^0.24.0",
+    "fast-csv": "^4.3.6",
+    "json2csv": "^5.0.6",
+    "vue": "^2.6.11",
+    "vue-json-csv": "^1.2.12",
+    "vue-json-to-csv": "^1.1.8",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
