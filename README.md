@@ -20,9 +20,9 @@ There is two folder for _backend_ & _frontend_, database using mongodb in _mongo
 2. frontend folder
 
    - Open new terminal cd into frontend folder
-   - Run npm run serve, frontend port 8181
+   - Run npm run serve, frontend port 8081
    
-3. Open app in localhost:8080
+3. Open app in localhost:8081
 
 4. Login
 
