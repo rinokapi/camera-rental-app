@@ -1,19 +1,43 @@
-ada dua file yaitu backend & frontend, database mongodb ada di mongodb://localhost:27017/uas_db, ada 4 collections (admins, items, orders, roles, users),
+# Camera rental app
 
-// npm install
+App for rent camera
 
-1. backend folder, npm start (pastikan mongosh service sudah active). backend port 8080
+There is two folder for _backend_ & _frontend_, database using mongodb in _mongodb://localhost:27017/uas_db, with 4 collections/table_ (admins, items, orders, roles, users),
 
-2. buka frontend, npm run serve, frontend port 8181
+## 📱 Preview
 
-3. aplikasi di localhost port 8081.
+![App preview](/preview/rent-app-view.png)
 
-user {
-username: riki,
-password: riki
-},
+## 🚀 Install
 
-admin {
-username: admin,
-password: admin
-}
+```
+1. backend folder
+
+   - Start mongosh service
+   - Open terminal cd into backend folder
+   - Run npm start, backend port 8080
+   
+2. frontend folder
+
+   - Open new terminal cd into frontend folder
+   - Run npm run serve, frontend port 8181
+   
+3. Open app in localhost:8080
+
+4. Login
+
+   User:
+        - username: riki
+        - password: riki
+        
+   Admin:
+        - username: admin
+        - password: admin
+```
+        
+## 🔨 Tools
+
+- VueJs
+- MongoDB
+- Axios
+- Express
